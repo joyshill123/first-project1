@@ -242,19 +242,36 @@ header{
 /* footer section */
 
 .footer{
-    background:#181818;
-    color:#fff;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    background:#9e9226;
+    color:#0c0909;
     text-align:center;
-    padding:25px 0;
+    padding:5px 0;
+    
 }
-
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 6px;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    max-width:1200px ;
+    
+}
 .footer p{
     font-size:15px;
-    color:#ddd;
+    color:#030101;
+    padding: 0 200px;
+}
+.continer2{
+    cursor: pointer;
 }
 
 .footer strong{
-    color:#FD6E0A;
+    color:#198f19;
 }
 
 
