@@ -256,3 +256,77 @@ header{
 .footer strong{
     color:#FD6E0A;
 }
+
+
+/* =========================
+        FAQ SECTION
+========================= */
+
+.faq{
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.faq-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-heading h2{
+    font-size: 38px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.faq-heading p{
+    color: #666;
+    font-size: 16px;
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.faq-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.faq-card{
+    background: #f8f9fb;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.faq-card h3{
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.faq-card p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .faq-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .faq-heading h2{
+        font-size: 30px;
+    }
+
+}

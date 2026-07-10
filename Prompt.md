@@ -1,0 +1,4 @@
+1st message on Chatgpt :- (I have a website name with devconf 2006. in the website have 5 section ( navbar,header/hero, speaker , pricetag and footer ) . here is this website main title and speech =(Code.Connect.Create Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections. Register Now)  in hero section. so i need one more random or required section for this website after price tag and before footer section . give me this section code in html and css separatly . )
+
+
+2nd and last message on Chatgpt :- (give me this without any animation and remake in another style of most people use)
