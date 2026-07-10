@@ -1,0 +1,258 @@
+/* common Section */
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/* body{
+    display: flex;
+    max-width: 1200px;
+    align-items:center;
+} */
+header{
+    background-color: aliceblue;
+    padding: 15px 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 6px;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    max-width:1200px ;
+    
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    font-weight: bold;
+}
+.navlist li a{
+    text-decoration: none;
+}
+.button {
+  background: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+    color: #fcf6f6;
+    background-color: black;
+}
+.button-outline {
+    text-decoration: none;
+  background: transparent;
+  border: 2px solid #fd932f;
+  padding: 10px 20px;
+  color: #746868;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* hero section */
+.hero{
+    background-image: url(assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.mainc{
+    max-width:700px;
+    text-align:center;
+    color:#fff;
+}
+.mainc h1 span{
+    font-style: italic;
+}
+.mainc h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.mainc p{
+    font-size:1.1rem;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+.mainc h1 p{
+    padding: 200px 0 0 200px;
+
+}
+.btn{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+/* speaker section */
+
+.gallery{
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgb(0,0,0,.0.1);
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.content h1{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+
+/* price tag box */
+
+.price{
+    max-width: 1500px;
+    margin: 80px auto;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    text-align: center;
+}
+
+.price h2{
+    width: 100%;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.price > p{
+    width: 100%;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.box{
+    width: 300px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.box:hover{
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.box p:first-child{
+    color: #ff9800;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.box h3{
+    font-size: 48px;
+    margin: 15px 0;
+    color: #222;
+}
+
+.box hr{
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #413838;
+}
+
+.box ul{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.box ul li{
+    margin: 15px 0;
+    color: #555;
+    position: relative;
+    padding-left: 25px;
+}
+
+.box ul li::before{
+    content: " ✔";
+    position: absolute;
+    left: 0;
+    color: #12ca56;
+    font-weight: bold;
+}
+
+.box button{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.active{
+    border: 3px solid #ff9800;
+    position: relative;
+}
+
+.active::before{
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff9800;
+    color: #ffffff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* footer section */
+
+.footer{
+    background:#181818;
+    color:#fff;
+    text-align:center;
+    padding:25px 0;
+}
+
+.footer p{
+    font-size:15px;
+    color:#ddd;
+}
+
+.footer strong{
+    color:#FD6E0A;
+}
